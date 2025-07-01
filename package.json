@@ -1,0 +1,23 @@
+{
+  "name": "tushar-code",
+  "version": "1.0.0",
+  "description": "tushar code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tushar-3154/tushar-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tushar-3154/tushar-code/issues"
+  },
+  "homepage": "https://github.com/tushar-3154/tushar-code#readme",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0"
+  }
+}
