@@ -1,9 +1,10 @@
 {
   "name": "tushar-code",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
     "url": "https://github.com/tushar-3154/tushar-code/issues"
   },
   "homepage": "https://github.com/tushar-3154/tushar-code#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
