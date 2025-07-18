@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema({
 
     avatar: {
         type: String, // cloudinary url
-        required: true
+        // required: true
     },
 
     coverImage: {
@@ -50,7 +50,7 @@ const userSchema = new mongoose.Schema({
 
 
 
-}, { timeseries: true });
+}, { timestamps: true });
 
 userSchema.pre("save", async function (next) {
     if (!this.isModified("password")) return next();
