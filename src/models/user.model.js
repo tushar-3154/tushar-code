@@ -47,9 +47,6 @@ const userSchema = new mongoose.Schema({
         required: [true, 'Password is required']
     },
 
-
-
-
 }, { timestamps: true });
 
 userSchema.pre("save", async function (next) {
@@ -77,6 +74,7 @@ userSchema.methods.generateAccessToken = function () {
         }
     )
 }
+
 userSchema.methods.generateRefreshToken = function () {
     return jwt.sign(
         {
